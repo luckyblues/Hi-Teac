@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css">
+
+<script src="js/jquery.min.js" type="text/javascript"></script>
+<script src="js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/cufon-replace.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/sprites.js"></script>
+<script type="text/javascript" src="js/gSlider.js"></script>
+
+</head>
+<body id="page6">
+<div id="main">
+	<header>
+		<nav>
+			<ul>
+		<li><a href="index.html">首页</a></li>
+		<li><a href="two.html">资讯</a></li>
+		<li><a href="three.html">视频</a></li>
+		<li><a href="four.html">智能</a></li>
+		<li><a href="five.html">Hi-TEAC</a></li>
+		<li class="active"><a href="six.html">联系我们</a></li>
+		</ul>
+	</nav>
+	<h1><a href="index.html">欢迎提意见给我们</a></h1>
+	
+</header><div class="innercopy"></div>
+  <article id="content">
+	<div class="col-1">
+		<div class="p2">
+		<h2>最新相册</h2>
+		<img src="images/col-1-img1.png" class="p1" alt=""> <a href="#" class="more">更多相册</a></div>
+		<div class="p2">
+		<h2>最新视频</h2>
+		<a width=512&amp;height=288&amp" ><img class="p1" src="images/col1-video-thumb1.jpg" alt=""></a>
+		<div class="alc"><a href=three.html">更多视频</a></div>
+		</div>
+	</div>
+	<div class="col-2">
+		<h2>联系我们</h2>
+		<form action="" id="form1">
+            <fieldset>
+                <label>名字:<input type="text"></label>
+                <label>邮箱:<input type="email"></label>
+                <label>城市:<input type="text"></label>
+                <label class="msg">建议:<textarea></textarea></label>
+                <div class="btns"><a class="more">清空</a><a  class="more">发送</a></div>
+            </fieldset>
+		</form>
+	</div>
+	<div class="col-3">
+		<h2>联系方式</h2>
+		<ul class="contacts blo">
+		<li><span>国家:</span>China</li>
+		<li><span>城市:</span>山东</li>
+		<li><span>城市:</span>烟台</li>
+		<li><span>电话:</span>027390</li>
+		<li><span>邮箱:</span><a href="#">1234@163.com</a></li>
+		</ul>
+		<h2>帮助中心</h2>
+		<p>如果你有好看的有趣的科技资讯或者视频，欢迎邮箱给我们，我们共同促进科技交流，真心欢迎技术爱好者指出意见</p>
+		<h2>分享</h2>
+		<form action="" id="subscribe">
+		<fieldset>
+			<label>
+			<input type="text">
+			</label>
+			<input type="submit" value="">
+		</fieldset>
+		</form>
+		
+	</div>
+  </article>
+  <div class="af clear"></div>
+</div>
+<footer>
+</footer>
+<script type="text/javascript">Cufon.now()
+$(function(){
+	$('nav,.more,.header-more').sprites()
+
+	$('.header-slider').gSlider({
+		prevBu:'.hs-prev',
+		nextBu:'.hs-next'
+	})
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,296 @@
+@charset "utf-8";
+* {margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, output, section, summary {display:block}
+meter,progress,mark, time {
+	display:inline
+	}
+ol, ul {
+	list-style:none
+	}
+blockquote,q {
+	quotes:none
+	}
+html,body {
+	height:100%
+	}
+img {
+	border:0;
+	vertical-align:top;
+	text-align:left
+	}
+object {
+	vertical-align:top;
+	outline:none
+	}
+ul,ol {
+	list-style:none
+	}
+table,table td {
+	padding:0;
+	border:none;
+	border-collapse:collapse
+	}
+input,select,textarea {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+	margin:0;padding:0}
+textarea {
+	overflow:auto
+	}
+/* 全局 */
+html {
+	min-width:1088px
+	}
+body {
+	background:url(../images/body-bg.png) repeat-x #1d1d1d;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	line-height:1em;color:#000
+	}
+.innercopy, .innercopy a {
+	border:0;float:right;
+	background:#fff;color:#f00;
+	width:50%;line-height:10px;
+	font-size:10px;margin:-220% 0 0 0;
+	overflow:hidden;padding:0}
+#main {
+	width:1088px;
+	margin:0 auto;
+	min-height:100%;
+	margin-bottom:-129px}
+.af {
+	height:129px}
+header {
+	position:relative;
+	height:398px;
+	background:url(../images/header-bg.jpg) 0 0 no-repeat}
+a {
+	color:#AD5A5A;
+	outline:none}
+a:hover {
+	text-decoration:none}
+p,.blo {
+	line-height:20px;
+	margin-bottom:20px}
+.p0 {
+	margin-bottom:8px}
+.p1 {
+	margin-bottom:16px}
+.p2 {
+	margin-bottom:32px}
+
+header h1 {
+	position:absolute;
+	left:612px;
+	top:130px}
+header h1 a {
+	font:60px/1.2em Arial, Helvetica, sans-serif;
+	color:#414141;
+	text-decoration:none
+	}
+header nav {
+	width:1024px;
+	height:73px;
+	position:absolute;
+	left:32px;
+	top:28px;
+	background:url(../images/nav-sprite.png)
+	}
+header nav ul {
+	padding-left:2px
+	}
+header nav li {
+	float:left;
+	padding-top:10px
+	}
+header nav li a {
+	font:28px/50px Arial, Helvetica, sans-serif;
+	color:#000;
+	width:168px;
+	display:block;
+	text-align:center;
+	border-right:1px #f5f5f5 solid;
+	border-left:1px #efefef solid;
+	text-decoration:none
+	}
+header nav li a:hover,header nav li.active a {
+	color:#037f00}
+/* 头部结su* */
+/* 中间 */
+#page1 #content {
+	background:none;
+	padding-top:380px
+	}
+#page4 .img-box {
+	margin-right:44px;
+	margin-bottom:20px
+	}
+#page4 .img-box img {
+	margin-bottom:6px}
+  #page4 .img-box.lst {
+	  margin-right:0}
+#content {
+	min-height:400px;
+	background:url(../images/content-bg.png) no-repeat 0 0;
+	padding:43px 0 60px 0;overflow:hidden;
+	font-size:12px;
+	line-height:20px;
+	color:#fff;
+	position:relative}
+.contacts span {
+	width:70px;
+	display:inline-block}
+h2 {
+	font:"微软雅黑";
+	font-weight:normal;
+	font-size:30px;
+	color:#fff;margin-bottom:16px}
+table.dates {
+	width:586px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+	color:#fff;
+	
+	}
+.table-border {
+	border-radius:8px;
+	overflow:hidden;
+	border:none;
+	position:relative;
+	z-index:1}
+
+table.dates td {
+	padding:20px 22px;
+	background:#171717}
+table.dates td .name {
+	font:20px/32px Arial, Helvetica, sans-serif;
+	color:#74be00;
+	white-space:nowrap;
+	text-decoration:none;
+	display:inline-block;
+	margin-bottom:4px}
+table.dates td .name:hover {
+	color:#fff}
+
+table.dates .even td {
+	background:#0e0e0e
+	}
+table.dates .thead td {
+	background:#171717;
+	line-height:40px}
+table.dates .col1 {
+	width:160px;
+	padding-left:40px;
+}
+table.dates .col3 {
+	width:180px}
+.soc-ico li {
+	float:left;
+	margin-right:4px}
+	
+
+footer {
+height:129px;
+background:url(../images/footer-bg.png) repeat-x;
+position:relative;
+z-index:1}
+#form1 {width:505px}
+#form1 label {
+	float:left;
+	width:100%;
+	background:url(../images/contacts-input.png) right 0 no-repeat;
+	margin-bottom:4px}
+#form1 label.msg {
+	background-image:url(../images/contacts-textarea.png)
+	}
+#form1 label.msg textarea {
+	height:400px}
+#form1 label input,#form1 label textarea {
+	float:right;width:400px;
+	background:none;
+	border:none;padding:6px 8px}
+#form1 .btns {
+	float:right;
+	padding-top:14px}
+#form1 .btns a {
+	float:left;
+	margin-left:12px}
+#subscribe {
+	width:157px;
+	margin-bottom:22px;}
+#subscribe input,#subscribe label {
+	float:left}
+#subscribe label {
+	background:url(../images/news-input.png) no-repeat}
+#subscribe input 
+{ background:none;
+  border:none;
+  width:111px;
+  padding:10px}
+#subscribe input[type=submit] {
+	width:26px;
+	height:35px;
+	background:url(../images/subscribe.png) no-repeat;
+	cursor:pointer}
+
+.tumbvr {
+	height:337px;
+	width:100%;
+	position:absolute;
+	left:0;z-index:990;
+	cursor:pointer}
+.tumbvr-mask {
+	height:337px;
+	width:100%;
+	background:url(../images/tumbvr-mask.png) no-repeat;
+	position:absolute;
+	left:50%;
+	margin-left:-544px;
+	top:0;
+	z-index:999}
+.tumbvr li {
+	float:left}
+.tumbvr li a {
+	display:block;
+	position:relative}
+
+/* additional classes */
+.pl {padding-left:40px}
+.green {color:#74be00}
+.fleft,.fl {float:left}
+.fright,.fr {float:right}
+.fnone,.fn {float:none}
+.col-1,.col-2,.col-3 {float:left}
+.alignleft,.all {text-align:left}
+.alignright,.alr {text-align:right}
+.aligncenter,.alc {text-align:center}
+.wrapper {width:100%;overflow:hidden}
+a.und,.und a {text-decoration:none}
+a.und:hover,.und a:hover {text-decoration:underline}
+.nocolor, .nocolor a {color:inherit}
+.upc {text-transform:uppercase}
+.extra-wrap {overflow:hidden}
+.nopad {padding:0}
+.nomar {margin:0}
+.clear {clear:both;line-height:0}
+.bold {font-weight:bold}
+/* custom boxes */
+.more {
+	font-size:16px;
+	font-family:"微软雅黑";
+	font-weight:normal;
+    color:#74be00;
+    width:113px;
+    text-align:center;
+    display:block;
+    margin:0 auto;
+    background:url(../images/more-sprite.png);
+    text-decoration:none}
+
+dl.address dd {text-align:right;clear:both}
+dl.address dd span {float:left}
+dl.img-box,.img-box-set dl,dl.img-box dd,.img-box-set dl dd {overflow:hidden}
+dl.img-box dt,.img-box-set dl dt {float:left}
